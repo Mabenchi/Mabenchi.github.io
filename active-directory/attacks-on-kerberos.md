@@ -287,4 +287,4 @@ ticketer.py -nthash 0123456789abcdef0123456789abcdef -domain-sid S-1-5-21-584055
 
 ## _**Thank you for reading! I hope you found this post informative and gained valuable insights from it. I would appreciate any feedback or suggestions for improvement, which you can provide on my**_ [_**Linkedin**_](https://www.linkedin.com/in/marouane-benchiekh/) _**account.**_
 
-<figure><img src=".gitbook/assets/att.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/att.jpeg" alt=""><figcaption></figcaption></figure>

@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Attacks on Kerberos](README.md)
-* [Kerberos Authentication](kerberos-authentication.md)
+* [Kerberos Authentication](README.md)
 * [Work of Emails](work-of-emails.md)
+* [Attacks on Kerberos](attacks-on-kerberos.md)

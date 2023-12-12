@@ -14,14 +14,6 @@ Kerberos, the meticulous three-headed guardian dog, diligently protects the unde
 
 From a technical standpoint, Kerberos is an advanced network authentication protocol designed to ensure secure identity verification within a networked environment. Its operation revolves around a trusted third-party server known as the Key Distribution Center (KDC), which can be envisioned as a ticket seller that issue encrypted tickets.
 
-## The Authentication Process
-
-Authentication Service (AS): When a client wants to access a service, it sends a request to the AS for a Ticket Granting Ticket (TGT). The TGT is encrypted using the KDC's secret key, ensuring its confidentiality. Once the client receives the TGT, it can proceed to the next step.
-
-Ticket Granting Service (TGS): Using the TGT received from the AS, the client can request a Service Ticket (ST) from the TGS. The ST allows the client to authenticate itself to the desired service.
-
-Service Authentication: With the ST in hand, the client can present it to the service it wishes to access. The service verifies the authenticity of the ST by decrypting it using its own secret key, provided by the KDC during the service's registration process. If the ST is valid, the client is granted access to the service.
-
 ## TGT vs Service Ticket vs Authenticators
 
 > Don't know what this is, just don't worry, we will discuss them all.

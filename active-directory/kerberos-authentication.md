@@ -16,7 +16,7 @@ From a technical standpoint, Kerberos is an advanced network authentication prot
 
 ## The Authentication Process
 
-Authentication Service (AS): When a client wants to access a service, it sends a request to the AS for a Ticket Granting Ticket (TGT). The TGT is encrypted using the client's password, ensuring its confidentiality. Once the client receives the TGT, it can proceed to the next step.
+Authentication Service (AS): When a client wants to access a service, it sends a request to the AS for a Ticket Granting Ticket (TGT). The TGT is encrypted using the KDC's secret key, ensuring its confidentiality. Once the client receives the TGT, it can proceed to the next step.
 
 Ticket Granting Service (TGS): Using the TGT received from the AS, the client can request a Service Ticket (ST) from the TGS. The ST allows the client to authenticate itself to the desired service.
 

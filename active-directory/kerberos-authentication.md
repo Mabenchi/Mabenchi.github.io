@@ -22,7 +22,7 @@ To gain passage into the underworld, you must overcome the formidable Kerberos. 
 
 #### 1. Ticket Granting Ticket (TGT):
 
-A TGT is a ticket issued by the Key Distribution Center (KDC) to a user during the initial authentication process. It serves as a proof of identity for the user and is used to request service tickets. The TGT is encrypted using the user's secret key and is obtained by the user after successful authentication with the KDC.
+A TGT is a ticket issued by the Key Distribution Center (KDC) to a user during the initial authentication process. It serves as a proof of identity for the user and is used to request service tickets. The TGT is encrypted using the KDC's secret key and is obtained by the user after successful authentication with the KDC.
 
 #### 2. Service Ticket:
 

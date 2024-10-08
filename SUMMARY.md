@@ -5,3 +5,5 @@
   * [Kerberos Authentication](active-directory/kerberos-authentication.md)
 * [Protocols Pentesting](protocols-pentesting/README.md)
   * [Work of Emails (SMTP)](protocols-pentesting/work-of-emails.md)
+* [Malware Developement](malware-developement/README.md)
+  * [Thread Hijacking](malware-developement/thread-hijacking.md)
